@@ -17,6 +17,13 @@ class Vendors extends StatelessWidget {
     fontSize: 26,
     fontWeight: FontWeight.bold,
   );
+  //for card text
+  static const TextStyle cardText = TextStyle(
+    fontSize: 18,
+    color: Color.fromRGBO(55, 71, 79, 1),
+    fontWeight: FontWeight.w600,
+    fontFamily: 'Nunito',
+  );
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -144,12 +151,78 @@ class Vendors extends StatelessWidget {
           ),
         ),
         body: SingleChildScrollView(
-          child: Column(
-            children: [
-              Container(
-                decoration: BoxDecoration(),
-              )
-            ],
+          child: DecoratedBox(
+            decoration: const BoxDecoration(
+              image: DecorationImage(
+                image: AssetImage("assets/bg_imgs/1.png"),
+                fit: BoxFit.fill,
+              ),
+            ),
+            child: Column(
+              children: [
+                SizedBox(
+                  height: 40,
+                ),
+                //1st card--->florist
+                Center(
+                  child: Card(
+                    elevation: 5,
+                    color: Colors.pink[50],
+                    child: Column(
+                      children: [
+                        SizedBox(
+                          height: 10,
+                        ),
+                        Image(
+                          image: AssetImage("assets/images/florist.jpg"),
+                          height: 200,
+                          width: 400,
+                        ),
+                        SizedBox(
+                          height: 10,
+                        ),
+                        Text(
+                          "Florists",
+                          style: cardText,
+                        ),
+                        SizedBox(
+                          height: 4,
+                        )
+                      ],
+                    ),
+                  ),
+                ),
+                //2nd card---->caterers
+                Center(
+                  child: Card(
+                    elevation: 5,
+                    color: Colors.pink[50],
+                    child: Column(
+                      children: [
+                        SizedBox(
+                          height: 10,
+                        ),
+                        Image(
+                          image: AssetImage("assets/images/caterers.png"),
+                          height: 200,
+                          width: 400,
+                        ),
+                        SizedBox(
+                          height: 10,
+                        ),
+                        Text(
+                          "Caterers",
+                          style: cardText,
+                        ),
+                        SizedBox(
+                          height: 4,
+                        )
+                      ],
+                    ),
+                  ),
+                ),
+              ],
+            ),
           ),
         ));
   }
