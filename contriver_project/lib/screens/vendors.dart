@@ -160,7 +160,7 @@ class Vendors extends StatelessWidget {
             ),
             child: Column(
               children: [
-                SizedBox(
+                const SizedBox(
                   height: 40,
                 ),
                 //1st card--->florist
@@ -169,7 +169,7 @@ class Vendors extends StatelessWidget {
                     elevation: 5,
                     color: Colors.pink[50],
                     child: Column(
-                      children: [
+                      children: const [
                         SizedBox(
                           height: 10,
                         ),
@@ -198,7 +198,7 @@ class Vendors extends StatelessWidget {
                     elevation: 5,
                     color: Colors.pink[50],
                     child: Column(
-                      children: [
+                      children: const [
                         SizedBox(
                           height: 10,
                         ),
