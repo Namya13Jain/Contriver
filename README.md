@@ -4,6 +4,8 @@ At times, event organizing companies find it difficult to manage everything manu
 # Our Solution
 Our mobile application "Contriver" is developed to help event organizing companies to manage their team,events,vendors and expenses appropriately, also tracking the expenses of the various events effectively.
 
+# How to use Contriver?
+
 # Tech Stacks Used
 
 # Future Scope
