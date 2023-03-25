@@ -192,7 +192,182 @@ class Vendors extends StatelessWidget {
                     ),
                   ),
                 ),
-                //2nd card---->caterers
+                //2nd card---->tent house
+                Center(
+                  child: Card(
+                    elevation: 5,
+                    color: Colors.pink[50],
+                    child: Column(
+                      children: const [
+                        SizedBox(
+                          height: 10,
+                        ),
+                        Image(
+                          image: AssetImage("assets/images/caterers.png"),
+                          height: 200,
+                          width: 400,
+                        ),
+                        SizedBox(
+                          height: 10,
+                        ),
+                        Text(
+                          "Caterers",
+                          style: cardText,
+                        ),
+                        SizedBox(
+                          height: 4,
+                        )
+                      ],
+                    ),
+                  ),
+                ),
+                //3rd card--->music
+                Center(
+                  child: Card(
+                    elevation: 5,
+                    color: Colors.pink[50],
+                    child: Column(
+                      children: const [
+                        SizedBox(
+                          height: 10,
+                        ),
+                        Image(
+                          image: AssetImage("assets/images/caterers.png"),
+                          height: 200,
+                          width: 400,
+                        ),
+                        SizedBox(
+                          height: 10,
+                        ),
+                        Text(
+                          "Caterers",
+                          style: cardText,
+                        ),
+                        SizedBox(
+                          height: 4,
+                        )
+                      ],
+                    ),
+                  ),
+                ),
+                //4th card---->lighting
+                Center(
+                  child: Card(
+                    elevation: 5,
+                    color: Colors.pink[50],
+                    child: Column(
+                      children: const [
+                        SizedBox(
+                          height: 10,
+                        ),
+                        Image(
+                          image: AssetImage("assets/images/caterers.png"),
+                          height: 200,
+                          width: 400,
+                        ),
+                        SizedBox(
+                          height: 10,
+                        ),
+                        Text(
+                          "Caterers",
+                          style: cardText,
+                        ),
+                        SizedBox(
+                          height: 4,
+                        )
+                      ],
+                    ),
+                  ),
+                ),
+                //5th card---->caterers
+                Center(
+                  child: Card(
+                    elevation: 5,
+                    color: Colors.pink[50],
+                    child: Column(
+                      children: const [
+                        SizedBox(
+                          height: 10,
+                        ),
+                        Image(
+                          image: AssetImage("assets/images/caterers.png"),
+                          height: 200,
+                          width: 400,
+                        ),
+                        SizedBox(
+                          height: 10,
+                        ),
+                        Text(
+                          "Caterers",
+                          style: cardText,
+                        ),
+                        SizedBox(
+                          height: 4,
+                        )
+                      ],
+                    ),
+                  ),
+                ),
+                //6th card--->gifting
+                Center(
+                  child: Card(
+                    elevation: 5,
+                    color: Colors.pink[50],
+                    child: Column(
+                      children: const [
+                        SizedBox(
+                          height: 10,
+                        ),
+                        Image(
+                          image: AssetImage("assets/images/caterers.png"),
+                          height: 200,
+                          width: 400,
+                        ),
+                        SizedBox(
+                          height: 10,
+                        ),
+                        Text(
+                          "Caterers",
+                          style: cardText,
+                        ),
+                        SizedBox(
+                          height: 4,
+                        )
+                      ],
+                    ),
+                  ),
+                ),
+                //7th card---> dancing group
+                Center(
+                  child: Card(
+                    elevation: 5,
+                    color: Colors.pink[50],
+                    child: Column(
+                      children: const [
+                        SizedBox(
+                          height: 10,
+                        ),
+                        Image(
+                          image: AssetImage("assets/images/caterers.png"),
+                          height: 200,
+                          width: 400,
+                        ),
+                        SizedBox(
+                          height: 10,
+                        ),
+                        Text(
+                          "Caterers",
+                          style: cardText,
+                        ),
+                        SizedBox(
+                          height: 4,
+                        )
+                      ],
+                    ),
+                  ),
+                ),
+                //8th card--->extra vendors
+                //include tatoos,musicians,kids theme decor vendor
                 Center(
                   child: Card(
                     elevation: 5,
