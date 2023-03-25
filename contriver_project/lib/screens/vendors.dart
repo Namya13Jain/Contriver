@@ -171,13 +171,10 @@ class Vendors extends StatelessWidget {
                     color: Colors.pink[50],
                     child: Column(
                       children: const [
-                        SizedBox(
-                          height: 10,
-                        ),
                         Image(
                           image: AssetImage("assets/images/florist.jpg"),
                           height: 200,
-                          width: 400,
+                          width: 300,
                         ),
                         SizedBox(
                           height: 10,
@@ -193,6 +190,9 @@ class Vendors extends StatelessWidget {
                     ),
                   ),
                 ),
+                const SizedBox(
+                  height: 10,
+                ),
                 //2nd card---->tent house
                 Center(
                   child: Card(
@@ -200,19 +200,16 @@ class Vendors extends StatelessWidget {
                     color: Colors.pink[50],
                     child: Column(
                       children: const [
-                        SizedBox(
-                          height: 10,
-                        ),
                         Image(
-                          image: AssetImage("assets/images/caterers.png"),
+                          image: AssetImage("assets/images/tent.png"),
                           height: 200,
-                          width: 400,
+                          width: 300,
                         ),
                         SizedBox(
                           height: 10,
                         ),
                         Text(
-                          "Caterers",
+                          "Tent House",
                           style: cardText,
                         ),
                         SizedBox(
@@ -221,6 +218,9 @@ class Vendors extends StatelessWidget {
                       ],
                     ),
                   ),
+                ),
+                const SizedBox(
+                  height: 10,
                 ),
                 //3rd card--->music
                 Center(
@@ -229,19 +229,16 @@ class Vendors extends StatelessWidget {
                     color: Colors.pink[50],
                     child: Column(
                       children: const [
-                        SizedBox(
-                          height: 10,
-                        ),
                         Image(
-                          image: AssetImage("assets/images/caterers.png"),
+                          image: AssetImage("assets/images/music.jpg"),
                           height: 200,
-                          width: 400,
+                          width: 300,
                         ),
                         SizedBox(
                           height: 10,
                         ),
                         Text(
-                          "Caterers",
+                          "Musicians/DJ",
                           style: cardText,
                         ),
                         SizedBox(
@@ -250,6 +247,9 @@ class Vendors extends StatelessWidget {
                       ],
                     ),
                   ),
+                ),
+                const SizedBox(
+                  height: 10,
                 ),
                 //4th card---->lighting
                 Center(
@@ -258,19 +258,16 @@ class Vendors extends StatelessWidget {
                     color: Colors.pink[50],
                     child: Column(
                       children: const [
-                        SizedBox(
-                          height: 10,
-                        ),
                         Image(
-                          image: AssetImage("assets/images/caterers.png"),
+                          image: AssetImage("assets/images/light.jpg"),
                           height: 200,
-                          width: 400,
+                          width: 300,
                         ),
                         SizedBox(
                           height: 10,
                         ),
                         Text(
-                          "Caterers",
+                          "Lighting",
                           style: cardText,
                         ),
                         SizedBox(
@@ -279,6 +276,9 @@ class Vendors extends StatelessWidget {
                       ],
                     ),
                   ),
+                ),
+                const SizedBox(
+                  height: 10,
                 ),
                 //5th card---->caterers
                 Center(
@@ -287,13 +287,10 @@ class Vendors extends StatelessWidget {
                     color: Colors.pink[50],
                     child: Column(
                       children: const [
-                        SizedBox(
-                          height: 10,
-                        ),
                         Image(
-                          image: AssetImage("assets/images/caterers.png"),
+                          image: AssetImage("assets/images/caterers_2.jpeg"),
                           height: 200,
-                          width: 400,
+                          width: 300,
                         ),
                         SizedBox(
                           height: 10,
@@ -308,6 +305,9 @@ class Vendors extends StatelessWidget {
                       ],
                     ),
                   ),
+                ),
+                const SizedBox(
+                  height: 10,
                 ),
                 //6th card--->gifting
                 Center(
@@ -316,19 +316,16 @@ class Vendors extends StatelessWidget {
                     color: Colors.pink[50],
                     child: Column(
                       children: const [
-                        SizedBox(
-                          height: 10,
-                        ),
                         Image(
-                          image: AssetImage("assets/images/caterers.png"),
+                          image: AssetImage("assets/images/gift_5.jpg"),
                           height: 200,
-                          width: 400,
+                          width: 300,
                         ),
                         SizedBox(
                           height: 10,
                         ),
                         Text(
-                          "Caterers",
+                          "Gifting and Packaging",
                           style: cardText,
                         ),
                         SizedBox(
@@ -337,6 +334,9 @@ class Vendors extends StatelessWidget {
                       ],
                     ),
                   ),
+                ),
+                const SizedBox(
+                  height: 10,
                 ),
                 //7th card---> dancing group
                 Center(
@@ -345,19 +345,16 @@ class Vendors extends StatelessWidget {
                     color: Colors.pink[50],
                     child: Column(
                       children: const [
-                        SizedBox(
-                          height: 10,
-                        ),
                         Image(
-                          image: AssetImage("assets/images/caterers.png"),
+                          image: AssetImage("assets/images/dance.jpeg"),
                           height: 200,
-                          width: 400,
+                          width: 300,
                         ),
                         SizedBox(
                           height: 10,
                         ),
                         Text(
-                          "Caterers",
+                          "Dancing Groups",
                           style: cardText,
                         ),
                         SizedBox(
@@ -367,35 +364,8 @@ class Vendors extends StatelessWidget {
                     ),
                   ),
                 ),
-                //8th card--->extra vendors
-                //include tatoos,musicians,kids theme decor vendor
-                Center(
-                  child: Card(
-                    elevation: 5,
-                    color: Colors.pink[50],
-                    child: Column(
-                      children: const [
-                        SizedBox(
-                          height: 10,
-                        ),
-                        Image(
-                          image: AssetImage("assets/images/caterers.png"),
-                          height: 200,
-                          width: 400,
-                        ),
-                        SizedBox(
-                          height: 10,
-                        ),
-                        Text(
-                          "Caterers",
-                          style: cardText,
-                        ),
-                        SizedBox(
-                          height: 4,
-                        )
-                      ],
-                    ),
-                  ),
+                const SizedBox(
+                  height: 40,
                 ),
               ],
             ),
