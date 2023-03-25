@@ -1,6 +1,7 @@
 import 'package:contriver_project/screens/birthdays.dart';
 import 'package:contriver_project/screens/corporate_events.dart';
 import 'package:contriver_project/screens/events.dart';
+import 'package:contriver_project/screens/florists.dart';
 import 'package:contriver_project/screens/get_togethers.dart';
 import 'package:contriver_project/screens/home_screen.dart';
 import 'package:contriver_project/screens/packages.dart';
@@ -35,6 +36,7 @@ class MyApp extends StatelessWidget {
         'vendors_page': (context) => const Vendors(),
         'get_together': (context) => const GetTogether(),
         'corporate': (context) => const CorporateEvents(),
+        'florist': (context) => const Florists(),
       },
     );
   }

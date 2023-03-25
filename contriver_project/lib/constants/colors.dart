@@ -8,3 +8,5 @@ const Color tdBlack = Color(0xFF3A3A3A);
 const Color tdGrey = Color(0xFF717171);
 
 const Color tdBGColor = Color(0xFFEEEFF5);
+
+const Color dividerColor = Color.fromRGBO(69, 90, 100, 1);
