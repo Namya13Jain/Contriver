@@ -1,3 +1,4 @@
+import 'package:contriver_project/constants/colors.dart';
 import 'package:contriver_project/screens/events.dart';
 import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
@@ -32,7 +33,7 @@ class _HomeScreenState extends State<HomeScreen> {
           image: AssetImage("assets/images/logo_bg.png"),
           height: 65,
         ),
-        backgroundColor: const Color.fromARGB(255, 249, 243, 243),
+        backgroundColor: appbarColor,
         leading: Builder(
           builder: (BuildContext context) {
             return IconButton(

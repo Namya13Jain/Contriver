@@ -1,3 +1,4 @@
+import 'package:contriver_project/constants/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:unicons/unicons.dart';
 
@@ -33,7 +34,7 @@ class Vendors extends StatelessWidget {
             "Vendors",
             style: appBarText,
           ),
-          backgroundColor: const Color.fromARGB(255, 249, 243, 243),
+          backgroundColor: appbarColor,
           leading: Builder(
             builder: (BuildContext context) {
               return IconButton(
