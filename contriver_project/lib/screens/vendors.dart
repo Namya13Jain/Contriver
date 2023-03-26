@@ -180,28 +180,31 @@ class Vendors extends StatelessWidget {
                   height: 10,
                 ),
                 //2nd card---->tent house
-                Center(
-                  child: Card(
-                    elevation: 5,
-                    color: Colors.pink[50],
-                    child: Column(
-                      children: const [
-                        Image(
-                          image: AssetImage("assets/images/tent.png"),
-                          height: 200,
-                          width: 300,
-                        ),
-                        SizedBox(
-                          height: 10,
-                        ),
-                        Text(
-                          "Tent House",
-                          style: cardText,
-                        ),
-                        SizedBox(
-                          height: 4,
-                        )
-                      ],
+                GestureDetector(
+                  onTap: () {},
+                  child: Center(
+                    child: Card(
+                      elevation: 5,
+                      color: Colors.pink[50],
+                      child: Column(
+                        children: const [
+                          Image(
+                            image: AssetImage("assets/images/tent.png"),
+                            height: 200,
+                            width: 300,
+                          ),
+                          SizedBox(
+                            height: 10,
+                          ),
+                          Text(
+                            "Tent House",
+                            style: cardText,
+                          ),
+                          SizedBox(
+                            height: 4,
+                          )
+                        ],
+                      ),
                     ),
                   ),
                 ),

@@ -34,7 +34,7 @@ class Florists extends StatelessWidget {
         ),
         //drawer
         drawer: Drawer(
-          backgroundColor: Color.fromRGBO(255, 248, 245, 1),
+          backgroundColor: const Color.fromRGBO(255, 248, 245, 1),
           width: 260,
           child: ListView(
             children: [
@@ -51,7 +51,7 @@ class Florists extends StatelessWidget {
                   UniconsLine.home_alt,
                   color: Colors.blueGrey[600],
                 ),
-                title: Text(
+                title: const Text(
                   "Home",
                   style: Drawertext,
                 ),
@@ -65,7 +65,7 @@ class Florists extends StatelessWidget {
                   UniconsLine.archive_alt,
                   color: Colors.blueGrey[600],
                 ),
-                title: Text(
+                title: const Text(
                   "Events",
                   style: Drawertext,
                 ),
@@ -79,7 +79,7 @@ class Florists extends StatelessWidget {
                   UniconsLine.palette,
                   color: Colors.blueGrey[600],
                 ),
-                title: Text(
+                title: const Text(
                   "Packages",
                   style: Drawertext,
                 ),
@@ -93,7 +93,7 @@ class Florists extends StatelessWidget {
                   UniconsLine.luggage_cart,
                   color: Colors.blueGrey[600],
                 ),
-                title: Text(
+                title: const Text(
                   "Vendors",
                   style: Drawertext,
                 ),
@@ -107,7 +107,7 @@ class Florists extends StatelessWidget {
                   UniconsLine.money_bill,
                   color: Colors.blueGrey[600],
                 ),
-                title: Text(
+                title: const Text(
                   "Expenses",
                   style: Drawertext,
                 ),
@@ -121,7 +121,7 @@ class Florists extends StatelessWidget {
                   Icons.person_3_outlined,
                   color: Colors.blueGrey[600],
                 ),
-                title: Text(
+                title: const Text(
                   "Team members",
                   style: Drawertext,
                 ),
