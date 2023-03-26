@@ -3,21 +3,16 @@ import 'package:unicons/unicons.dart';
 import 'package:contriver_project/constants/colors.dart';
 import '../constants/fonts_styles.dart';
 
-class EventsPage extends StatefulWidget {
-  const EventsPage({super.key});
+class TeamMembers extends StatelessWidget {
+  const TeamMembers({super.key});
 
-  @override
-  State<EventsPage> createState() => _EventsPageState();
-}
-
-class _EventsPageState extends State<EventsPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
         title: const Text(
-          "Events",
+          "Team Members",
           style: appBarText,
         ),
         backgroundColor: appbarColor,
@@ -145,7 +140,90 @@ class _EventsPageState extends State<EventsPage> {
           ),
         ),
         child: Center(
-          child: Column(),
+          child: Column(
+            children: [
+              const SizedBox(
+                height: 40,
+              ),
+              //1st member
+              Text(
+                "Mr. Manoj Kumar",
+                style: text,
+              ),
+              Text(
+                "Phone No.: 9823XXXX",
+                style: text,
+              ),
+              Text(
+                "Position of responsibility: Supervisor",
+                style: text,
+              ),
+              Text(
+                "Date of Joining: 9/8/2021",
+                style: text,
+              ),
+              const Divider(
+                color: dividerColor,
+              ),
+              Text(
+                "Mr. Manoj Kumar",
+                style: text,
+              ),
+              Text(
+                "Phone No.: 9823XXXX",
+                style: text,
+              ),
+              Text(
+                "Position of responsibility: Supervisor",
+                style: text,
+              ),
+              Text(
+                "Date of Joining: 9/8/2021",
+                style: text,
+              ),
+              const Divider(
+                color: dividerColor,
+              ),
+              Text(
+                "Mr. Manoj Kumar",
+                style: text,
+              ),
+              Text(
+                "Phone No.: 9823XXXX",
+                style: text,
+              ),
+              Text(
+                "Position of responsibility: Supervisor",
+                style: text,
+              ),
+              Text(
+                "Date of Joining: 9/8/2021",
+                style: text,
+              ),
+              const Divider(
+                color: dividerColor,
+              ),
+              Text(
+                "Mr. Manoj Kumar",
+                style: text,
+              ),
+              Text(
+                "Phone No.: 9823XXXX",
+                style: text,
+              ),
+              Text(
+                "Position of responsibility: Supervisor",
+                style: text,
+              ),
+              Text(
+                "Date of Joining: 9/8/2021",
+                style: text,
+              ),
+              const Divider(
+                color: dividerColor,
+              ),
+            ],
+          ),
         ),
       ),
     );
