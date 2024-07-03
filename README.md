@@ -1,5 +1,5 @@
 # Problem Statement
-At times, event organizing companies find it difficult to manage everything manually. They have to manage their large teams of people, organize varoius types of events, manage expenses and so on, with so much hastle. All this leads to a lot of miscommnunication, not bringing the stuff they had planned for the events, customer dissatisfaction and a lot more. 
+At times, event organizing companies find it difficult to manage everything manually. They have to manage their large teams of people, organize varoius types of events, manage expenses and so on, with so much hastle. All this leads to a lot of miscommnunication, not bringing the stuff they had planned for the events, customer dissatisfaction and a lot more. Managing all the stuff manually leads to wastage of a lot of paper, which is not good for the environment. So, **Contriver** provides a sustainable way to manage the various events.
 
 # Our Solution
 Our mobile application "Contriver" is developed to help event organizing companies to manage their team,events,vendors and expenses appropriately, also tracking the expenses of the various events effectively.
@@ -14,7 +14,7 @@ Our mobile application "Contriver" is developed to help event organizing compani
 <img src =  "https://user-images.githubusercontent.com/100767035/227769653-94a08e75-8e47-4616-a137-c8e2e50187a7.png" width = "200" height = "400" >
 
 # Tech Stacks Used
-Flutter
+Flutter, Dart and Figma
 
 
 
