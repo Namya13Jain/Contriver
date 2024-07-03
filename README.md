@@ -17,4 +17,6 @@ Our mobile application "Contriver" is developed to help event organizing compani
 Flutter, Dart and Figma
 
 
+# Awards 
+<img src = "https://github.com/Namya13Jain/Contriver/assets/100767035/ae567cc9-f3eb-4ee5-94b7-5aaf18e7a3b1" width = "600" height = "200">
 
